@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "age":"0-2",
+        "image":"./assets/mri.jpg",
+        "modality":"MRI"
+
+    },
+    {
+        "id":2,
+        "age":"0-2",
+        "image":"./assets/mri.jpg",
+        "modality":"CT"
+
+    },
+    {
+        "id":3,
+        "age":"0-2",
+        "image":"./assets/mri.jpg",
+        "modality":"Conventional"
+
+    }
+]

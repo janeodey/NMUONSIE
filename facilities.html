@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMUON'SIE|facilities</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./facilities.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body>
+    <!-- navigation -->
+    <nav>
+        <h1 class="logo"><i class="fas fa-radiation"></i>NMUON'<span>SIE</span>  </h1>
+        <div class="navigation">
+            <ul id="menu">
+                <i class="fas fa-times" id="menu-close" onclick="toggleMenu()"></i>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Register New Facility</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="./facilities.html" class="active">Dose Registry</a></li>
+            </ul>
+            <i class="fas fa-bars" id="menu-btn" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- facilities -->
+    <section id="facility">
+        <h2>Our Facilities</h2>       
+    </section>
+
+    <section id="facility-container">
+        <div class="facilities">
+            <div class="facilityPost">
+                <img src="./assets/ucth.jpg" alt="">
+                <h3>Check dose range for pediatric cases in UCTH</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nostrum incidunt dolorem quis animi modi quia dignissimos exercitationem sint optio.</p>
+                <a href="./ucth.html">Check Registry</a>
+            </div>
+            <div class="facilityPost">
+                <img src="./assets/generalHospital.jpg" alt="">
+                <h3>Check dose range for pediatric cases in General Hospital</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nostrum incidunt dolorem quis animi modi quia dignissimos exercitationem sint optio.</p>
+                <a href="#">Check Registry</a>
+            </div>
+            <div class="facilityPost">
+                <img src="./assets/arubaHospital.jpg" alt="">
+                <h3>Check dose range for pediatric cases in ASH Premium</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nostrum incidunt dolorem quis animi modi quia dignissimos exercitationem sint optio.</p>
+                <a href="#">Check Registry</a>
+            </div>
+            <div class="facilityPost">
+                <img src="./assets/asiukohospital.jpg" alt="">
+                <h3>Check dose range for pediatric cases in Asiukpo diagnostic Clinic</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nostrum incidunt dolorem quis animi modi quia dignissimos exercitationem sint optio.</p>
+                <a href="#">Check Registry</a>
+            </div>
+            <div class="facilityPost">
+                <img src="./assets/navyhospital.jpg" alt="">
+                <h3>Check dose range for pediatric cases in UCTH</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nostrum incidunt dolorem quis animi modi quia dignissimos exercitationem sint optio.</p>
+                <a href="#">Check Registry</a>
+            </div>
+        </div>
+
+        <div class="cate">
+            <h2>Our Facilities</h2>
+            <hr>
+            <a href="./ucth.html">University of Calabar Teaching Hospital</a>
+            <hr>
+            <a href="#">Aruba Specialist Hospital</a>
+            <hr>
+            <a href="#">General Hospital Calabar</a>
+            <hr>
+            <a href="#">Navy Reference Hospital</a>
+            <hr>
+            <a href="#">Assurance Diagnostic</a>
+            <hr>
+            <a href="#">Asiukpo Diagnostic</a>
+            <hr>
+        </div>
+    </section>
+
+   
+    
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-column">
+            <h3>Offices</h3>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-column">
+            <h3>Offices</h3>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-column">
+            <h3>Offices</h3>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-column">
+            <h3>Offices</h3>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+            <li>Manage site</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-column">
+            <h3>News Letter</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your email address">
+                <a href="#" class="orange">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &nbsp; 2023 All rights reserved | DoseRegistry</p>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/09432581c7.js" crossorigin="anonymous"></script>
+    <script>
+        let toggleStatus = 0;
+        function toggleMenu(){
+            if(toggleStatus == 1){
+                document.getElementById("menu").style.right = "-220px";
+                toggleStatus=0
+            } else if(toggleStatus == 0){
+                document.getElementById("menu").style.right = "0px";
+                toggleStatus=1
+            }
+        }
+
+    </script>
+</body>
+</html>
